@@ -7,8 +7,11 @@ branding:
 inputs:
   command:
     description: 'execute command'
-  expect:
+    required: true
+  expect_regex:
     description: 'expect command output, regex value'
+  expect_contain:
+    description: 'expect command output, include value'
 runs:
   using: 'node12'
   main: 'lib/main.js'
