@@ -23,9 +23,3 @@ jobs:
         with:
           command: echo 'Hello World'
           expect: 'Hello\sWorld'
-      - uses: MeilCli/test-command-action@master
-        with:
-          command: echo 'Hello World'
-          expect: 'Hello\sTest'
-      - run: echo previous faild
-        if: failure()
