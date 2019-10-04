@@ -18,7 +18,9 @@ async function run() {
         await exec.exec(command, undefined, execOption);
 
         if (stdout.match(expectOutputRegex) == null) {
-            core.setFailed(`stdout not match: ${expectOutputRegex}`);
+            core.setFailed(
+                `stdout not match: ${expectOutputRegex}, stdout: ${stdout}`
+            );
         }
     } catch (error) {
         core.setFailed(error.message);
