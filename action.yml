@@ -1,0 +1,14 @@
+name: 'command testing action'
+description: 'test command output, this action for developing actions'
+author: 'MeilCli'
+branding:
+  icon: alert-circle
+  color: blue
+inputs:
+  command:
+    description: 'execute command'
+  expect:
+    description: 'expect command output, regex value'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
