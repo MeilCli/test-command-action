@@ -1,6 +1,6 @@
 # test-command-action
 ![](https://github.com/MeilCli/test-command-action/workflows/CI/badge.svg)  
-JavaScript based testing command action for GitHub Actions.  
+testing command action for GitHub Actions.  
 This action is for developing actions, useful in cases like [MeilCli/setup-crystal-action](https://github.com/MeilCli/setup-crystal-action)
 
 ## input
