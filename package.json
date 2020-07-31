@@ -1,27 +1,29 @@
 {
-  "name": "test-command-action",
-  "version": "1.0.0",
-  "description": "testing command output, this action for developing actions",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "lint": "eslint src/**/*.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^14.0.27",
-    "@typescript-eslint/eslint-plugin": "^3.7.1",
-    "@typescript-eslint/parser": "^3.7.1",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
-  },
-  "dependencies": {
-    "@actions/core": "^1.2.4",
-    "@actions/exec": "^1.0.4"
-  }
+    "name": "test-command-action",
+    "version": "1.0.0",
+    "description": "testing command output, this action for developing actions",
+    "main": "lib/main.js",
+    "scripts": {
+        "build": "tsc",
+        "pack": "ncc build",
+        "lint": "eslint src/**/*.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.0.27",
+        "@typescript-eslint/eslint-plugin": "^3.7.1",
+        "@typescript-eslint/parser": "^3.7.1",
+        "@zeit/ncc": "^0.22.3",
+        "eslint": "^7.5.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
+        "@actions/core": "^1.2.4",
+        "@actions/exec": "^1.0.4"
+    }
 }
