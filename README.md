@@ -12,5 +12,8 @@ This action is for developing actions, useful in cases like [MeilCli/setup-cryst
 - `expect_contain`
   - expect command output, include value
 
+## Contributing
+see [Contributing.md](./.github/CONTRIBUTING.md)
+
 ## License
 [MIT License](LICENSE).
