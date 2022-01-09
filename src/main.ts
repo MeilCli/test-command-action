@@ -25,7 +25,9 @@ async function run() {
             core.setFailed(`stdout not contain: ${expectOutputContains}`);
         }
     } catch (error) {
-        core.setFailed(error.message);
+        if (error instanceof Error) {
+            core.setFailed(error.message);
+        }
     }
 }
 
