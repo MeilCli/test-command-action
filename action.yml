@@ -13,5 +13,5 @@ inputs:
   expect_contain:
     description: 'expect command output, include value'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
