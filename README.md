@@ -1,5 +1,5 @@
 # test-command-action
-![](https://github.com/MeilCli/test-command-action/workflows/CI/badge.svg)  
+[![CI-Master](https://github.com/MeilCli/test-command-action/actions/workflows/ci-master.yml/badge.svg)](https://github.com/MeilCli/test-command-action/actions/workflows/ci-master.yml)  
 testing command action for GitHub Actions.  
 This action is for developing actions, useful in cases like [MeilCli/setup-crystal-action](https://github.com/MeilCli/setup-crystal-action)
 
