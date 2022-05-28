@@ -12,8 +12,11 @@ This action is for developing actions, useful in cases like [MeilCli/setup-cryst
 - `expect_contain`
   - expect command output, include value
 
-## Contributing
+## Contributes
+[<img src="https://gist.github.com/MeilCli/761db882214b1f68e37dd6bf448cf753/raw/2b05652ea447526ebb0e165475c72d5ecf2cbc6f/metrics_contributors.svg">](https://github.com/MeilCli/test-command-action/graphs/contributors)
+
+### Could you want to contribute?
 see [Contributing.md](./.github/CONTRIBUTING.md)
 
 ## License
-[MIT License](LICENSE).
+[<img src="https://gist.github.com/MeilCli/761db882214b1f68e37dd6bf448cf753/raw/2b05652ea447526ebb0e165475c72d5ecf2cbc6f/metrics_licenses.svg">](LICENSE)
